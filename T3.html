@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>T3</title>
+</head>
+
+<body>
+    <h1>Hello World!!</h1>
+    <button onclick="func();">Click here</button>
+    <script>
+        func = function () {
+            alert("class has name = " + document.body.newclass);
+            document.body.newclass = "newclass";
+            alert("class has name = " + document.body.newclass);
+            document.body.innerHTML = "<h1>New heading</h1>";
+
+        }
+    </script>
+</body>
+
+</html>

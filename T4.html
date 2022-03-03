@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>T4</title>
+</head>
+<body>
+    <h1>Hello ! My name is Prashant Kumar</h1>
+    <button onclick="func();">Click Me</button>
+    <main>
+        <h2>Hello ! This is main</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptas.</p>
+    </main>
+    <script>
+        func = function () {
+            var main_body;
+            document.body.style.backgroundColor="#8f2c01";
+            main_body=document.querySelector('main');
+            main_body.innerHTML="<h2>New Heading after clicking</h2>";
+            main_body.style.height="80px";
+            main_body.style.width="60%";
+            main_body.style.backgroundColor="yellow";
+
+
+        }
+    </script>
+</body>
+</html>
